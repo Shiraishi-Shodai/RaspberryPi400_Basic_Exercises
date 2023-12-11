@@ -1,7 +1,8 @@
+""" それぞれのキーがUnicodeで表すと何番になるのか調べるコード"""
 
 import cv2
 import numpy as np
- 
+
 while True:
     # 画像を取得
     img = np.full((210, 425, 3), 128, dtype=np.uint8)
